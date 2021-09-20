@@ -1,0 +1,15 @@
+{
+  "name": "sk-cli",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": "XYShaoKang",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "sk-cli": "bin/cli.js"
+  },
+  "keywords": [],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
