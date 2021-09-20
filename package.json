@@ -1,0 +1,10 @@
+{
+  "name": "bytedance-youthcamp-practice",
+  "private": true,
+  "version": "0.0.1",
+  "description": "字节青巡营-实训班",
+  "author": "XYShaoKang",
+  "license": "MIT",
+  "keywords": [],
+  "scripts": {}
+}
