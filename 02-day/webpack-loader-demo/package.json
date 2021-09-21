@@ -1,0 +1,21 @@
+{
+  "name": "webpack-loader-demo",
+  "version": "1.0.0",
+  "description": "",
+  "author": "XYShaoKang",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf lib && rollup -c --watch"
+  },
+  "dependencies": {
+    "remark": "^14.0.1",
+    "remark-html": "^14.0.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^20.0.0",
+    "@rollup/plugin-node-resolve": "^13.0.4",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.56.3"
+  }
+}
