@@ -23,7 +23,7 @@ function createTemplate(templateFilename, option, generateFilename) {
     path.join(templatePath, templateFilename),
     'utf-8',
   )
-  const code = ejs.render(templateStr, option)
+  const code = ejs.render(templateStr, option, { rmWhitespace: true })
   // return code
   return prettier.format(code, { parser: parsers[extname] })
 }
