@@ -1,0 +1,9 @@
+{
+  "name": "webpack-plugin-demo",
+  "version": "1.0.0",
+  "author": "XYShaoKang",
+  "license": "MIT",
+  "description": "",
+  "main": "index.js",
+  "scripts": {}
+}
