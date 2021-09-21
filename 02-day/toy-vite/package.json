@@ -1,0 +1,18 @@
+{
+  "name": "toy-vite",
+  "version": "1.0.0",
+  "description": "",
+  "author": "XYShaoKang",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "koa": "^2.13.1",
+    "vue": "^2.6.14"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
