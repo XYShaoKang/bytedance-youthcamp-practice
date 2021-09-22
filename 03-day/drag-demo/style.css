@@ -1,0 +1,9 @@
+#app {
+  width: 100px;
+  height: 100px;
+  border: 1px solid rgb(206, 12, 12);
+  line-height: 100px;
+  text-align: center;
+  user-select: none;
+  cursor: pointer;
+}
