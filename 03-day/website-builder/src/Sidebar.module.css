@@ -1,0 +1,22 @@
+.sidebar {
+  width: 160px;
+  background: lightgoldenrodyellow;
+}
+.item {
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  margin: 10px;
+  box-sizing: border-box;
+  border: solid 1px #2c3e50;
+  user-select: none;
+  text-align: center;
+  line-height: 60px;
+}
+.dragable {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  box-sizing: border-box;
+  background-color: lightblue;
+}

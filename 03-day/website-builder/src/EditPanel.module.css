@@ -1,0 +1,18 @@
+.editpanel {
+  flex: 1;
+  overflow: scroll;
+}
+.row {
+  display: flex;
+  width: 100%;
+  min-height: 300px;
+  background-color: rgb(179, 155, 19);
+  padding: 20px;
+  box-sizing: border-box;
+  margin-top: 10px;
+}
+.col {
+  background-color: rgb(60, 233, 60);
+  min-width: 200px;
+  margin: 10px;
+}
