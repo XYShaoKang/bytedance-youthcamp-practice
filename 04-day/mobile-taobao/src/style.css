@@ -54,7 +54,7 @@ li {
 
 .box {
   width: 100vw;
-  padding: 2.6667vw 2.6667vw 0;
+  margin: 2.6667vw 2.6667vw 0;
   box-sizing: border-box;
 }
 
@@ -67,8 +67,28 @@ li {
 }
 
 .jianhuo {
-  background: lightgreen;
+  display: flex;
 }
+.jianhuo > div {
+  display: flex;
+  background: #fff;
+  width: 46.4vw;
+  height: 24vw;
+  margin-right: 1.8667vw;
+  border-radius: 2.6667vw;
+}
+.jianhuo > div > span {
+  margin: 2.6667vw 2.6667vw;
+}
+.jianhuo > div > div {
+  width: 18.6667vw;
+  height: 18.6667vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+
 .mybrand {
   background: lightseagreen;
 }
