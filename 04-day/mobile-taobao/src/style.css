@@ -58,7 +58,11 @@ li {
 }
 
 .banner-bottom {
-  background: lightcyan;
+  height: 9.8667vw;
+  background-image: url(../assets/banner_bottom.png);
+  margin-top: -5.6vw;
+  position: relative;
+  z-index: 10;
 }
 .kaiheyouxi {
   background: lightpink;
