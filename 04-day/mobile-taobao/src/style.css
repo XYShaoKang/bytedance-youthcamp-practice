@@ -90,5 +90,38 @@ li {
 }
 
 .mybrand {
-  background: lightseagreen;
+  background: #fff;
+  border-radius: 2.6667vw;
+  height: 38.9334vw;
+  overflow: hidden;
+}
+
+.mybrand-header {
+  margin: 2.6667vw;
+}
+.mybrand-body {
+  margin: 2.6667vw;
+  display: flex;
+  text-align: center;
+  overflow-x: scroll;
+}
+/* 隐藏滚动条 */
+.mybrand-body::-webkit-scrollbar {
+  display: none;
+}
+.mybrand-body > li {
+  margin-right: 2.1334vw;
+}
+.mybrand-body > li > div {
+  height: 12.8vw;
+  width: 12.8vw;
+  background: #f5f5f5;
+  padding: 3.2vw;
+  border-radius: 2.6667vw;
+}
+.mybrand-body > li > span {
+  font-family: 'SIL-Hei-Med-Jian';
+  font-size: 12px;
+  color: #a18d67;
+  font-weight: 400;
 }
