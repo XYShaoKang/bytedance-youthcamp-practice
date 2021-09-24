@@ -53,9 +53,12 @@ li {
 }
 
 .box {
-  width: 100vw;
-  margin: 2.6667vw 2.6667vw 0;
+  width: 94.6667vw;
+  margin: 2.6667vw;
   box-sizing: border-box;
+}
+.box > img {
+  width: 94.6667vw;
 }
 
 .banner-bottom {
@@ -64,6 +67,7 @@ li {
   margin-top: -5.6vw;
   position: relative;
   z-index: 10;
+  background-size: cover;
 }
 
 .jianhuo {
@@ -120,8 +124,47 @@ li {
   border-radius: 2.6667vw;
 }
 .mybrand-body > li > span {
-  font-family: 'SIL-Hei-Med-Jian';
+  font-family: SIL-Hei-Med-Jian;
   font-size: 12px;
   color: #a18d67;
   font-weight: 400;
+}
+
+.product {
+  background: #fff;
+  min-height: 40vw;
+  border-radius: 2.6667vw;
+  padding: 3.2vw 0 0 2.6667vw;
+}
+
+.product .header {
+  font-family: SIL-Hei-Med-Jian;
+  color: #666666;
+  text-align: center;
+  font-weight: 400;
+  font-size: 12px;
+  display: flex;
+  margin: 0 2.6667vw;
+  overflow-x: scroll;
+  flex-shrink: 0;
+}
+.product .header::-webkit-scrollbar {
+  display: none;
+}
+.product .header .current {
+  color: #000000;
+  font-size: 14px;
+  margin: 0 2.6667vw 0 0;
+}
+.product .header > span {
+  white-space: nowrap;
+  margin-left: 4.2667vw;
+}
+.product .show {
+  display: flex;
+  flex-wrap: wrap;
+}
+.product .show > div > img {
+  width: 46.4vw;
+  height: 46.4vw;
 }
