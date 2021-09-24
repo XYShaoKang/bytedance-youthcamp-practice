@@ -29,3 +29,26 @@ function initMyBrand() {
   })
 }
 initMyBrand()
+
+window.onscroll = function () {
+  const scrollTop = document.documentElement.scrollTop
+  const viewHeight = document.body.clientHeight
+  const scrollHeight = document.documentElement.scrollHeight
+
+  const progressbar = document.getElementById('progressbar')
+  const progressroot = document.getElementById('progressroot')
+
+  if (!progressroot || !progressbar) {
+    return
+  }
+  const rootHeight = progressroot.clientHeight
+  if (scrollTop > rootHeight) {
+    progressroot.style.opacity =
+      '' + Math.min((scrollTop - rootHeight) / (rootHeight * 2), 1)
+  } else {
+    progressroot.style.opacity = '0'
+  }
+
+  progressbar.style.width =
+    (scrollTop / (scrollHeight - viewHeight)) * 100 + '%'
+}
