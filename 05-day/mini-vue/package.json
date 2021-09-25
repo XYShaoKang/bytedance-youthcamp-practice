@@ -1,0 +1,14 @@
+{
+  "name": "mini-vue",
+  "version": "0.0.1",
+  "author": "XYShaoKang",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^2.5.4"
+  }
+}
