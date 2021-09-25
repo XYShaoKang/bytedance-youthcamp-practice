@@ -1,8 +1,10 @@
 {
   "name": "mobile-taobao",
-  "version": "0.0.0",
+  "version": "0.0.1",
+  "author": "XYShaoKang",
+  "license": "MIT",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host 0.0.0.0",
     "build": "tsc && vite build",
     "serve": "vite preview"
   },
